@@ -1,0 +1,20 @@
+{
+  "name": "fincon-reply-frontend-academy-css",
+  "version": "1.0.0",
+  "description": "Third homework task within Fincon Reply Frontend Academy 2026",
+  "homepage": "https://github.com/Fincon-Reply-Poland/fincon-reply-frontend-academy-css#readme",
+  "bugs": {
+    "url": "https://github.com/Fincon-Reply-Poland/fincon-reply-frontend-academy-css/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fincon-Reply-Poland/fincon-reply-frontend-academy-css.git"
+  },
+  "license": "MIT",
+  "author": "Adam Biadasiewicz",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "TODO"
+  }
+}
