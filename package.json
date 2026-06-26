@@ -15,6 +15,12 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "test": "TODO"
+    "test": "playwright test",
+    "build:scss": "sass task3/style.scss task3/style.css --no-source-map",
+    "pretest": "npm run build:scss"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "sass": "^1.83.0"
   }
 }

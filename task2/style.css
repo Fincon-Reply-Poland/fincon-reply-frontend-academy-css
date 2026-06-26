@@ -1,0 +1,92 @@
+/* ==========================================================
+   Ćwiczenie 2 – CSS Grid Layout
+   ==========================================================
+
+   Twoim zadaniem jest stworzenie klasycznego layoutu strony
+   przy użyciu CSS Grid.
+
+   Wymagania:
+   1. Kontener .layout:
+      - Użyj CSS Grid (display: grid)
+      - Zdefiniuj 2 kolumny: sidebar o szerokości 250px i main o szerokości 1fr
+      - Zdefiniuj wiersze: nagłówek (auto), środkowa sekcja (1fr lub min. 300px), stopka (auto)
+      - Dodaj gap między obszarami (np. 16px)
+      - Ustaw minimalną wysokość na 100vh
+
+   2. Obszary layoutu przy użyciu grid-template-areas:
+      Oczekiwany układ:
+        ┌───────────────────────┐
+        │        header         │
+        ├─────────┬─────────────┤
+        │ sidebar │    main     │
+        ├─────────┴─────────────┤
+        │        footer         │
+        └───────────────────────┘
+
+      Wskazówka: użyj grid-template-areas i grid-area dla każdego elementu (nie było na wykładzie, ale liczę na dobry research)
+
+   3. Każdy z elementów (.header, .sidebar, .main, .footer):
+      - Przypisz do odpowiedniego obszaru przez grid-area
+      - Dodaj padding i tło (różne kolory dla czytelności)
+
+   Efekt końcowy: klasyczny layout strony z nagłówkiem,
+   stopką i dwukolumnową środkową sekcją.
+   ========================================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.layout {
+}
+
+.header {
+  padding: 16px 24px;
+  background: #4f46e5;
+  color: white;
+}
+
+.sidebar {
+  padding: 24px 16px;
+  background: #e0e7ff;
+}
+
+.main {
+  padding: 24px;
+  background: #ffffff;
+}
+
+.footer {
+  padding: 16px 24px;
+  background: #1e1b4b;
+  color: white;
+  text-align: center;
+}
+
+/* Gotowe style – nie modyfikuj */
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  margin-bottom: 8px;
+}
+
+.sidebar a {
+  color: #3730a3;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.main h2 {
+  margin-bottom: 12px;
+}

@@ -1,0 +1,78 @@
+/* ==========================================================
+   Ćwiczenie 1 – Flexbox Cards
+   ==========================================================
+
+   Twoim zadaniem jest ostylowanie siatki kart kursów.
+
+   Wymagania:
+   1. Kontener .card-grid:
+      - Użyj flexbox
+      - Karty powinny się zawijać do kolejnej linii
+      - Ustaw odpowiedni odstęp między kartami
+
+   2. Każda karta .card:
+      - Powinna mieć stałą szerokość (np. 280px) i minimalną wysokość
+      - Użyj flexbox z pionowym kierunkiem
+      - Dodaj padding, border-radius i box-shadow
+
+   3. Treść karty .card__body:
+      - Powinna "rosnąć" i wypełniać dostępne miejsce
+      - Wskazówka: użyj flex-grow lub skrótu flex
+
+   4. Stopka karty .card__footer z przyciskiem:
+      - Powinna zawsze być na DOLE karty, niezależnie od długości tekstu
+      - Nie musisz zmieniać jej flex-direction
+
+   Efekt końcowy: każda karta ma tę samą wysokość w wierszu,
+   a przycisk "Zapisz się" zawsze wyrównany do dołu.
+   ========================================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 24px;
+  background: #f5f5f5;
+}
+
+/* TODO: ostyluj .card-grid */
+.card-grid {
+}
+
+/* TODO: ostyluj .card */
+.card {
+}
+
+/* TODO: ostyluj .card__body */
+.card__body {
+}
+
+/* TODO: ostyluj .card__footer */
+.card__footer {
+  padding-top: 16px;
+}
+
+/* Gotowe style – nie modyfikuj */
+.card__title {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.card__button {
+  width: 100%;
+  padding: 10px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.card__button:hover {
+  background: #4338ca;
+}

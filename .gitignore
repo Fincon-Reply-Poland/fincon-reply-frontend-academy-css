@@ -1,0 +1,4 @@
+node_modules/
+task3/style.css
+test-results/
+playwright-report/
